@@ -1,0 +1,313 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans'); 
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body{
+	 background: DimGray;
+	 margin: 0;
+	 text-align: center;	
+      
+    margin-top: 0.8em;
+ }
+.header{
+    background-position: center;
+}
+
+form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+td, th {
+  border: 1px solid #999;
+  padding: 0.5rem;  
+   font-family: 'Lato', sans-serif;
+font-weight: 500;
+color: darkorange  ;
+text-shadow: 1px 1px 1px #000, 2px 2px 3px darkorange;
+}
+td {	
+   font-family: 'Lato', sans-serif;
+font-weight: 500;
+color: whitesmoke    ;
+text-shadow: 1px 1px 1px #000, 3px 3px 5px black;
+}
+
+
+.contenuform{
+   height: relative;
+    width: relative; 
+    max-width: 100%;
+    border: 1px solid darkorange;
+    float:left;
+    margin-left: 5em;
+    margin-top: 5em;
+    margin-right : 5em;
+    margin-bottom: 15em;
+
+}
+
+input[type=text] {
+  border: 1px dotted #999;
+  border-radius: 0;
+
+  -webkit-appearance: none;
+}
+
+.logotitre{
+    display: inline-block;     
+    background-image: url('images/logotitre.png');
+    height: 180px;
+    width: 450px; 
+    margin-left: 0.8em;
+    max-width: 100%;
+    margin-bottom: 1.5em; 
+    background-position: center;
+       -webkit-user-select: none;
+    -khtml-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+}
+.menu{
+background-position: center;    
+    margin-top: -2em;
+}
+.ulhaut{
+    list-style-type: none;
+    display: inline;   
+    
+    }
+
+.ulhaut a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 0.8em;
+    font-family: "Open Sans";
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+    
+}
+
+.ulhaut a:hover{
+   color: darkorange;
+}
+
+
+.menuhaut{
+    display: inline;
+    margin-left: 0.7em;    
+    background-color: rgba(0,0,2,0.3);
+    border: 0.1em solid darkorange;
+    padding: 0.8em;
+    padding-left: 3em;
+    padding-right: 3em;
+    color: darkorange;
+}
+
+.menuhaut li:hover{
+    
+    background-color: rgba(0,0,25,0.4);
+    cursor: pointer;
+    
+}
+
+.container{
+    display: inline-block; 
+    width: 95%; 
+    background-color: rgba(0,0,2,0.2);
+    border: 0.1em solid darkorange;
+    margin-bottom: 3em;
+    margin-top: 3em;
+    box-shadow: 1px 1px 12px #555;
+}
+
+.photo{
+    background-image: url('images/profilcv.png');
+    height: 200px;
+    width: 200px; 
+    max-width: 100%;
+    border: 1px solid darkorange;
+    float:left;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-right : 1.4em;
+}
+
+.contenutext{
+    font-family: 'Lato', sans-serif;
+font-weight: 500;
+color: whitesmoke    ;
+          text-shadow: 1px 1px 1px #000, 3px 3px 5px black;
+    text-align:justify;
+    text-indent: 1em;
+    padding-left: 1.4em;
+    padding-right: 1em;
+    
+}
+
+
+.topcontainer{
+    display: inline-block; 
+    width: 100%; 
+    background-color: rgba(0,0,2,0.2);
+    border-bottom: 0.1em solid darkorange;
+    
+border-bottom-right-radius: 1em;
+border-bottom-left-radius: 1em;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+}
+
+.titre{
+    font-family: 'Lato', sans-serif;
+     color: whitesmoke;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    font-size: 1.6em;
+    margin: 10px; 
+    font-weight: 900;    
+    margin-left: 0.5em;
+    float: left;
+}
+.logoaccueil{
+    background-image: url('images/home.png');
+    height: 32px;
+    width: 32px; 
+    background-repeat: no-repeat;
+    float:left;
+    margin-left: 2.5em;
+    margin-top: 0.8em;
+}
+.soustitre{
+     font-family: "Lato", sans-serif;
+     color: darkorange;
+    font-weight: 900;
+    margin-top: 10px;
+    font-size: 1.6em;
+    margin-right: 5em;
+}
+
+.footer{
+    display: inline-block; 
+    width: 100%; 
+    height: 100%;
+    background-color: rgba(0,0,2,0.2);
+    border-top: 0.1em solid darkorange;
+    margin-top: 2em;
+    position: relative; 
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+}
+
+.rightmenu{
+    margin-bottom: 8%;
+    margin-top: 8%;
+    margin-right: 1%;
+   margin-left: 1.4em;
+    border :1px dashed darkorange;
+   float: right;    
+}
+
+.menurightul{
+    list-style-type: none;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 0.8em;
+    font-family: "Open Sans";
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+    }
+
+.menurightli{   
+    margin-top: 0.6em;
+    margin-right: 4em;
+}
+.menurighta{   
+    text-align: center;
+    text-decoration: none;
+    font-family: "Open Sans";
+    color: whitesmoke;
+    
+}
+
+.menurighta:hover{
+    color: darkorange;
+}
+
+
+.copyleftimage{
+    
+   background-image: url("images/copyleft.png");
+    width: 20px;
+    height: 20px;
+    
+}
+
+.copyleft{
+    display: block;
+    background-attachment: fixed;
+    margin-top: 5em;
+    margin-bottom: 3em;
+    color: whitesmoke;
+    font-family: "Open Sans";
+    font-weight: 200;
+    }
+
+@media all and (min-width: 200px) and (max-width: 940px) {
+  .menuhaut {  
+        display: block;
+        margin-left: 0.7em;
+        margin-right: 0.7em;
+    margin-bottom: 0;}
+    
+    
+.logotitre{
+    display: inline-block;     
+    background-image: url('images/logotitrepetit.png');
+    height: 200px;
+    width: 220px; 
+    max-width: 100%;
+    margin-bottom: 1.5em; 
+       -webkit-user-select: none;
+    -khtml-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+}
+    
+    
+    .titre{
+    font-family: 'Lato', sans-serif;
+     color: whitesmoke;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin: 5px; 
+    font-weight: 450;
+    
+    margin-left: 1.5em;
+    float: left;
+}
+.soustitre{
+     font-family: "Lato", sans-serif;
+     color: darkorange;
+    font-weight: 450;
+    margin-top: 5px;
+    font-size: 1.2em;
+    margin-right: 2.5em;
+}
+
+    
+}

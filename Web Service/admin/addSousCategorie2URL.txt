@@ -1,0 +1,1 @@
+http://localhost/Web%20Service/admin/addSousCategorie2.php?categorie=Rugby,566c417bf6f388a81d000043,566c559af6f388a81d000048

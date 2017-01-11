@@ -1,0 +1,1 @@
+http://localhost/Web%20Service/add/addSubscription.php?subscribe=manu,password,emaila@42.fr,fr,F,16,29,28

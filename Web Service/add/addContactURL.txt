@@ -1,0 +1,1 @@
+http://localhost/Web%20Service/add/addContact.php?infos=5664b0a3f6f388dc26000052,pasdddord&contact=5664a21df6f388dc2600004e
